@@ -22,8 +22,8 @@ try:
 
     msg.attach(MIMEText(body, 'plain'))
 
-    filename = "secure.tar.gz"
-    attachment = open("./secure.tar.gz", "rb")
+    filename = "secure.enc"
+    attachment = open("./secure.enc", "rb")
 
     part = MIMEBase('application', 'octet-stream')
     part.set_payload((attachment).read())
