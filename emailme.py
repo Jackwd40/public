@@ -10,7 +10,7 @@ try:
     gmail_password = 'F0ur160nien?'
 
     fromaddr = "a9xdefender@gmail.com"
-    toaddr = "jdavies@conetrix.com"
+    toaddr = "centennialconway@conetrix.com"
 
     msg = MIMEMultipart()
 
